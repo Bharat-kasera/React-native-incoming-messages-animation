@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "start": "expo start",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" && prettier -c \"**/*.{js,jsx,ts,tsx,json}\"",
     "format": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix && prettier \"**/*.{js,jsx,ts,tsx,json}\" --write",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@callstack/liquid-glass": "^0.8.0",
     "@expo/vector-icons": "^15.0.2",
+    "@faker-js/faker": "^10.4.0",
+    "@react-native-segmented-control/segmented-control": "^2.5.7",
     "@react-navigation/native": "^7.1.6",
     "expo": "^54.0.0",
     "expo-constants": "~18.0.9",
