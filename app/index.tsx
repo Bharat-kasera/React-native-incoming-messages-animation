@@ -48,7 +48,7 @@ export default function Home() {
     generateData();
   },[speed]);
   return (
-    <ImageBackground source={require('../assets/bg.jpg')} style={styles.container} blurRadius={12}>
+    <ImageBackground source={require('../assets/bg.jpg')} style={styles.container} blurRadius={0}>
       <TikTokMessages data={messages}
         renderItem={({ item }) => {
           return (
